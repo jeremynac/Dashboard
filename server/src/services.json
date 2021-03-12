@@ -1,0 +1,84 @@
+{
+    "services": [{
+        "name": "time",
+        "widgets": [{
+            "name": "clock",
+            "description": "Gives the time of a specific timezone with different kind of clocks",
+            "params": [{
+                "name": "timezone",
+                "type": "string"
+            }, {
+                "name": "style",
+                "type": "string"
+            }]
+        }]
+    }, {
+        "name": "google",
+        "widgets": [{
+            "name": "gmail",
+            "description": "Gets a max number of mails, with given label(inbox, spam...)",
+            "params": [{
+                    "name": "number",
+                    "type": "integer"
+                },
+                {
+                    "name": "labels",
+                    "type": "string"
+                }
+            ]
+        }]
+    }, {
+        "name": "animals",
+        "widgets": [{
+            "name": "random_animal_picture",
+            "description": "Displays a random animal picture",
+            "params": [{
+                "name": "animal_type",
+                "type": "string"
+            }]
+        }]
+    }, {
+        "name": "food",
+        "widgets": [{
+            "name": "random_food_picture",
+            "description": "Displays a random dish picture",
+            "params": [{
+                "name": "food_type",
+                "type": "string"
+            }]
+        }]
+    }, {
+        "name": "joke",
+        "widgets": [{
+            "name": "random_joke",
+            "description": "Shows a joke about programming, general or knock-knock joke",
+            "params": [{
+                "name": "joke_type",
+                "type": "string"
+            }]
+        }]
+    }, {
+        "name": "rss",
+        "widgets": [{
+            "name": "rss_feed",
+            "description": "Shows last entries of a provided rss feed",
+            "params": [{
+                "name": "url",
+                "type": "string"
+            }, {
+                "name": "number",
+                "type": "integer"
+            }]
+        }]
+    }, {
+        "name": "world_data",
+        "widgets": [{
+            "name": "countries_data",
+            "description": "Shows data on given country",
+            "params": [{
+                "name": "country",
+                "type": "string"
+            }]
+        }]
+    }]
+}
